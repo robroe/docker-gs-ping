@@ -4,7 +4,8 @@ on:
   push:
     tags:
       - "*.*.*"
-
+      
+# Push to docker hub
 jobs:
   release:
     runs-on: ubuntu-latest
